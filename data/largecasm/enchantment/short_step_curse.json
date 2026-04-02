@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 8,
+  "description": "Curse of Short Step",
+  "exclusive_set": "#largecasm:exclusive_set/step",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:step_height",
+        "id": "largecasm:enchantment.short_step_curse",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:lookup",
+          "values": [
+            -0.2
+          ],
+          "fallback": -0.2
+        }
+      }
+    ]
+  }
+}

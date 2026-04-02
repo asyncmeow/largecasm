@@ -1,0 +1,39 @@
+{
+  "anvil_cost": 2,
+  "description": "Diminution",
+  "exclusive_set": "#largecasm:exclusive_set/size",
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 5,
+  "max_level": 5,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 18,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:scale",
+        "id": "largecasm:enchantment.diminution",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:lookup",
+          "values": [
+            -0.05,
+            -0.1,
+            -0.15,
+            -0.2,
+            -0.225
+          ],
+          "fallback": -0.225
+        }
+      }
+    ]
+  }
+}

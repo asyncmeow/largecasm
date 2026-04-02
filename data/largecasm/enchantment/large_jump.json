@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 8,
+  "description": "Large Jump",
+  "exclusive_set": "#largecasm:exclusive_set/jump",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 40,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:jump_strength",
+        "id": "largecasm:enchantment.large_jump",
+        "operation": "add_value",
+        "amount": {
+          "type": "minecraft:lookup",
+          "values": [
+            0.1
+          ],
+          "fallback": 0.1
+        }
+      }
+    ]
+  }
+}

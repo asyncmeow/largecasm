@@ -1,4 +1,5 @@
 {
+  "replace": false,
   "values": [
     "largecasm:collar",
     "largecasm:diminution",
@@ -8,6 +9,6 @@
     "largecasm:large_step",
     "largecasm:short_jump_curse",
     "largecasm:short_reach_curse",
-    "largecasm_short_step_curse"
+    "largecasm:short_step_curse"
   ]
 }

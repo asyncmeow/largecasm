@@ -1,6 +1,8 @@
 {
 	"pack": {
 		"pack_format": 94,
-		"description": "A datapack adding growing/shrinking enchantments."
+		"description": "A datapack adding growing/shrinking enchantments.",
+		"min_format": [94,0],
+		"max_format": [94,0]
 	}
 }
